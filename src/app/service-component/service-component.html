@@ -1,0 +1,7 @@
+<h3>Local Counter: {{ local.value }}</h3>
+<h3>Global Counter: {{ global.value }}</h3>
+
+<button (click)="local.increment()">Local +</button>
+<button (click)="global.increment()">Global +</button>
+
+<button (click)="track()">Track analytics</button>
